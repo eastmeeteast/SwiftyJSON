@@ -1236,7 +1236,7 @@ extension NSNumber {
     }
 }
 
-#if os(Linux)
+#if 1
 #else
 func == (lhs: NSNumber, rhs: NSNumber) -> Bool {
     switch (lhs.isBool, rhs.isBool) {
